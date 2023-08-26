@@ -1,0 +1,136 @@
+/* Style untuk navbar */
+.navbar {
+  margin-bottom: 20px;
+}
+
+/* Style untuk tab navigasi */
+.nav-tabs .nav-link {
+  border: none;
+  background: none;
+  color: #333;
+  font-weight: bold;
+}
+
+/* Style untuk tab aktif */
+.nav-tabs .nav-link.active {
+  color: #007bff;
+  border-bottom: 2px solid #007bff;
+}
+
+/* Style untuk judul halaman */
+h3 {
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+/* Style untuk tombol besar */
+.my-large-btn {
+  padding: 10px 10px;
+  font-size: 18px;
+}
+
+/* Style untuk card */
+.card {
+  margin-top: 20px;
+}
+
+/* Style untuk gambar di dalam card */
+.card img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Style untuk form input */
+.form-control {
+  margin-bottom: 10px;
+}
+
+/* Style untuk tombol di dalam form */
+.form-group .btn {
+  margin-right: 10px;
+}
+
+/* Style untuk footer */
+footer {
+  margin-top: 20px;
+  padding: 10px 0;
+  text-align: center;
+  background-color: #f8f9fa;
+}
+
+/* Style untuk grid item */
+.grid-item {
+  margin-bottom: 20px;
+  border: 1px solid #ddd;
+  padding: 15px;
+  border-radius: 5px;
+  background-color: #fff;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Style untuk bagian hasil */
+/* CSS untuk kontainer gambar */
+.img-container {
+  text-align: center; /* Pusatkan gambar secara horizontal */
+  margin-bottom: 20px; /* Beri jarak bawah antara gambar */
+}
+
+/* CSS untuk gambar */
+.img-container img {
+  max-width: 100%; /* Pastikan gambar tidak melebihi lebar parent */
+  height: auto; /* Biarkan tinggi gambar mengikuti aspek ratio */
+  border: 1px solid #ddd; /* Tambahkan border untuk tampilan yang lebih baik */
+  border-radius: 5px; /* Bulatkan sudut gambar */
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1); /* Tambahkan efek bayangan */
+}
+/* Tambahkan CSS ini pada akhir file mystyle.css */
+/* ... (CSS lainnya) ... */
+
+/* Style untuk gambar hasil */
+.grid-item {
+  margin-bottom: 20px;
+  border: 1px solid #ddd;
+  padding: 15px;
+  border-radius: 5px;
+  background-color: #fff;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  display: flex; /* Gunakan flexbox untuk mengatur susunan */
+}
+
+.grid-item .img-container {
+  text-align: center;
+  margin-right: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.grid-item .img-container img {
+  max-width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: auto;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.grid-item .info-container {
+  flex: 1; /* Biarkan info-container mengambil sisa lebar tersedia */
+}
+
+.grid-item h4 {
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+
+.grid-item h5 {
+  margin-top: 0;
+  margin-bottom: 20px;
+}
+
+.grid-item .btn {
+  margin-right: 10px;
+}
+
